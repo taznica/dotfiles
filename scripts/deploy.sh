@@ -13,6 +13,7 @@ for file in .??*
 do
     [[ "$file" = ".git" ]] && continue
     [[ "$file" = ".DS_Store" ]] && continue
+    [[ "$file" = ".gitmodules" ]] && continue
     ln -fhvs "$DOTPATH/$file" "$HOME/$file"
 done
 
