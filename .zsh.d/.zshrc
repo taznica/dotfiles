@@ -1,0 +1,1 @@
+/Users/ttsutchi/.zsh.d/.zprezto/runcoms/zshrc
