@@ -1,0 +1,13 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/core"
+
+brew "carthage"
+brew "emacs" 
+brew "git"
+brew "mecab-ipadic"
+brew "nodebrew"
+brew "python"
+brew "tree"
+brew "zsh"
+brew "heroku/brew/heroku"
