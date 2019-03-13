@@ -48,5 +48,7 @@ wait $!
 git remote add origin git@github.com:ttsutchi/$DIR_NAME.git
 git push -u origin master
 
+wait $!
+
 echo "Git repository is successfully initialized."
 
