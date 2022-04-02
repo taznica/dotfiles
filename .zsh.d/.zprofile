@@ -1,1 +1,0 @@
-/Users/ttsutchi/.zsh.d/.zprezto/runcoms/zprofile
