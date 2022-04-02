@@ -99,6 +99,9 @@
 ;; C-h is backspace
 (global-set-key "\C-h" 'delete-backward-char)
 
+;; set theme
+(load-theme 'wombat t)
+
 ;; company
 (straight-use-package 'company)
 (use-package company)
