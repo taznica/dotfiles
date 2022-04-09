@@ -71,6 +71,17 @@ prompt pure  # pureをプロンプトに設定
 
 export PATH=/usr/local/bin/git:$PATH  # Git (Homebrew)
 
+## anyenv
+if [ -e "$HOME/.anyenv" ]
+then
+    export ANYENV_ROOT="$HOME/.anyenv"
+    export PATH="$ANYENV_ROOT/bin:$PATH"
+    export ANYENV_DEFINITION_ROOT=${HOME}/.anyenv/anyenv-install 
+    if command -v anyenv 1>/dev/null 2>&1
+    then
+        eval "$(anyenv init -)"
+    fi
+fi
 
 # aliases ###################################################################################
 
