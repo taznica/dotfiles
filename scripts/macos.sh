@@ -7,12 +7,12 @@ echo -e "\n- Configuring MacOS settings ..."
 # Dock
 ## 自動で隠す
 defaults write com.apple.dock autohide -bool true
-## Dockからすべてのアプリを消す
-defaults write com.apple.dock persistent-apps -array  # unchanged 
 ## Dockのサイズ
 defaults write com.apple.dock "tilesize" -int "36"
 ## 最近起動したアプリを非表示
 defaults write com.apple.dock "show-recents" -bool "false"
+## Dockが表示されるまでの時間を10秒にする
+defaults write com.apple.Dock autohide-delay -float 10;
 
 # スクリーンショット
 ## スクリーンショットの保存場所をscreenshotsフォルダに変更
